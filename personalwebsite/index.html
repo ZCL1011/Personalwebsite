@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="张崇乐 - AIGC 应用开发者 | 大模型应用工程师 | 求职中">
+  <title>张崇乐 - AIGC 应用开发 | 个人网站</title>
+  <meta property="og:title" content="张崇乐 - AIGC 应用开发 | 个人网站">
+  <meta property="og:description" content="AIGC 应用开发者，独立完成智能客服、会议助手、AI 图像生成等项目，求职中">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="张崇乐 - AIGC 应用开发 | 个人网站">
+  <meta name="twitter:description" content="AIGC 应用开发者，独立完成智能客服、会议助手、AI 图像生成等项目，求职中">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "张崇乐",
+    "jobTitle": "AIGC 应用开发工程师",
+    "email": "zhangchongle2026@gmail.com",
+    "knowsAbout": ["人工智能", "AIGC", "大语言模型", "Python", "LangChain", "LangGraph", "RAG", "AI Agent", "FastAPI"],
+    "url": "https://gitee.com/relifediamond",
+    "sameAs": ["https://github.com/ZCL1011"]
+  }
+  </script>
+</head>
+<body>
+
+  <a href="#home" class="skip-to-content">跳到主要内容</a>
+
+  <!-- ===== 导航栏 ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Welcome！</a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">首页</a></li>
+        <li><a href="#about" class="nav-link">关于我</a></li>
+        <li><a href="#skills" class="nav-link">技能</a></li>
+        <li><a href="#projects" class="nav-link">项目</a></li>
+        <li><a href="#contact" class="nav-link">联系</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="菜单" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== Hero 首屏 ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">你好，我是</p>
+      <h1 class="hero-name">张崇乐</h1>
+      <p class="hero-tagline">热衷于 <span class="highlight">人工智能</span> 与 <span class="highlight">AIGC 应用开发</span></p>
+      <p class="hero-desc">
+        我相信 AI 将重塑每一个行业。目前正在深入学习 AIGC 应用开发，<br>
+        探索大语言模型、图像生成等前沿技术在真实场景中的落地。
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn btn-primary">联系我</a>
+        <a href="resume.html" class="btn btn-outline" id="downloadResume" target="_blank">查看简历</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>往下看</span>
+      <div class="scroll-mouse">
+        <div class="scroll-dot"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 关于我 ===== -->
+  <section id="about" class="about section">
+    <div class="container">
+      <h2 class="section-title">关于我</h2>
+      <div class="section-line"></div>
+
+      <div class="about-grid">
+        <div class="about-avatar-wrapper">
+          <div class="about-avatar">
+            <img class="avatar-img" src="images/avatar.jpg" alt="张崇乐的照片"
+                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <span class="avatar-fallback">ZCL</span>
+          </div>
+          <p class="avatar-hint">个人照片</p>
+        </div>
+        <div class="about-text">
+          <p>
+            你好！我是<strong>张崇乐</strong>，2025 年毕业于重庆科技大学计算机科学与技术专业。现居浙江嘉兴，正在寻找 <strong>杭州的 AIGC / Python 后端开发</strong> 工作机会。
+          </p>
+          <p>
+            我专注于 <strong>AIGC 应用开发</strong>，独立完成了智能客服助手（RAG）、AI 会议助手（Whisper + LLM）、AI 图像生成（Stable Diffusion）、CSV 数据清洗 CLI 工具等多个项目。
+            熟练使用 Python、LangChain、RAG、DeepSeek API、Pandas、HTML/CSS、SQL，了解 FastAPI 和 Streamlit。在 Coze / Dify 低代码平台搭建过 AI 应用。
+          </p>
+          <p>
+            已获得腾讯混元大模型 Benchmark Engineer 和天津景烁大模型测评岗的笔试/测评机会。正在学习 <strong>Transformer、思维链 (CoT)、模型微调和蒸馏</strong>，希望能找到一个让我持续成长的平台。
+          </p>
+          <div class="about-info-list">
+            <div class="info-item">
+              <span class="info-icon">📍</span>
+              <span>所在地：浙江嘉兴，中国</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">✉️</span>
+              <span>邮箱：zhangchongle2026@gmail.com</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🎓</span>
+              <span>学历：重庆科技大学 · 计算机科学与技术 本科</span>
+            </div>
+            <div class="info-item">
+              <span class="info-icon">🎯</span>
+              <span>状态：求职中 - AIGC 应用开发 / 大模型评测</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 技能 ===== -->
+  <section id="skills" class="skills section section-alt">
+    <div class="container">
+      <h2 class="section-title">技能</h2>
+      <div class="section-line"></div>
+
+      <div class="skills-block">
+        <h3 class="skills-category">编程语言</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C语言</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-category">AI / AIGC 应用开发</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">LangChain</span>
+          <span class="skill-tag">RAG 检索增强生成</span>
+          <span class="skill-tag">DeepSeek API</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">LangGraph</span>
+          <span class="skill-tag">AutoGen</span>
+          <span class="skill-tag">MCP 协议</span>
+          <span class="skill-tag">AI Agent 开发</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-category">数据 & 后端</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">HTML / CSS</span>
+          <span class="skill-tag">正则表达式</span>
+          <span class="skill-tag">Whisper 语音识别</span>
+          <span class="skill-tag">Stable Diffusion</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-category">了解 & 工具</h3>
+        <div class="skills-tags">
+          <span class="skill-tag">FastAPI</span>
+          <span class="skill-tag">Streamlit</span>
+          <span class="skill-tag">Claude Code</span>
+          <span class="skill-tag">Coze / Dify</span>
+          <span class="skill-tag">Git</span>
+        </div>
+      </div>
+
+      <div class="skills-block">
+        <h3 class="skills-category">学习中</h3>
+        <div class="skills-tags">
+          <span class="skill-tag learning">Transformer 原理</span>
+          <span class="skill-tag learning">大模型思维链 (CoT)</span>
+          <span class="skill-tag learning">模型微调</span>
+          <span class="skill-tag learning">模型蒸馏</span>
+          <span class="skill-tag learning">大模型评测</span>
+        </div>
+      </div>
+
+      <div class="skills-legend">
+        <span class="legend-item"><span class="legend-dot learning-dot"></span> 正在学习</span>
+        <span class="legend-item"><span class="legend-dot dream-dot"></span> 计划探索</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== 项目 ===== -->
+  <section id="projects" class="projects section">
+    <div class="container">
+      <h2 class="section-title">项目 & 作品</h2>
+      <div class="section-line"></div>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">🤖</span>
+            <h3>智能客服助手</h3>
+          </div>
+          <p class="project-desc">
+            基于大语言模型的智能客服系统，支持多轮对话、上下文理解和知识库检索。
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>LangChain</span>
+            <span>DeepSeek API</span>
+          </div>
+          <div class="project-links">
+            <a href="http://localhost:8501" class="project-link" target="_blank">启动应用 →</a>
+            <button class="project-link-demo" data-demo="cs">查看演示</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">🎨</span>
+            <h3>AI 图像创作工具</h3>
+          </div>
+          <p class="project-desc">
+            调用 Stable Diffusion API，实现文本到图像的生成应用，支持风格选择和参数调优。
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>Stable Diffusion</span>
+          </div>
+          <div class="project-links">
+            <a href="http://localhost:8000" class="project-link" target="_blank">启动应用 →</a>
+            <button class="project-link-demo" data-demo="img">查看演示</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-card-header">
+            <span class="project-icon">📋</span>
+            <h3>AI 智能会议助手</h3>
+          </div>
+          <p class="project-desc">
+            上传会议录音/视频自动转文字，AI 生成结构化纪要——摘要、核心要点、待办事项和决策一目了然。
+          </p>
+          <div class="project-tags">
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>Whisper</span>
+            <span>DeepSeek API</span>
+          </div>
+          <div class="project-links">
+            <a href="http://localhost:8001" class="project-link" target="_blank">启动应用 →</a>
+            <button class="project-link-demo" data-demo="meeting">查看演示</button>
+          </div>
+        </div>
+
+      </div>
+
+      <p class="projects-note">
+        以上为 3 个主要 AI 应用。此外在 Coze / Dify 低代码平台搭建过智能客服和 RAG 问答应用，以及 CSV 数据清洗 CLI 工具、图片压缩工具等。<br>
+        所有项目代码托管在 <a href="https://gitee.com/relifediamond" target="_blank" rel="noopener" style="color: var(--color-accent);">Gitee</a>，持续学习和实践中。
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== 联系 / 页脚 ===== -->
+  <footer id="contact" class="footer section section-alt">
+    <div class="container">
+      <h2 class="section-title">联系我</h2>
+      <div class="section-line"></div>
+
+      <p class="contact-intro">
+        如果你对我的经历感兴趣，或者想一起探讨 AI 和 AIGC 相关话题，<br>
+        欢迎随时联系我。
+      </p>
+
+      <div class="contact-cards">
+        <a href="#" class="contact-card" data-copy="zhangchongle2026@gmail.com">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-label">邮箱</span>
+          <span class="contact-value">zhangchongle2026@gmail.com</span>
+        </a>
+        <a href="#" class="contact-card" data-copy="Z00210lib">
+          <span class="contact-icon">💬</span>
+          <span class="contact-label">微信</span>
+          <span class="contact-value">Z00210lib</span>
+        </a>
+        <a href="https://gitee.com/relifediamond" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">🔗</span>
+          <span class="contact-label">Gitee</span>
+          <span class="contact-value">relifediamond</span>
+        </a>
+        <a href="https://github.com/ZCL1011" class="contact-card" target="_blank" rel="noopener">
+          <span class="contact-icon">🐙</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">ZCL1011</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-tagline">用 AI 创造更好的世界 ✨</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 回到顶部按钮 -->
+  <button class="back-to-top" id="backToTop" aria-label="回到顶部">↑</button>
+
+  <!-- ===== Demo Modal ===== -->
+  <div class="demo-overlay" id="demoOverlay">
+    <div class="demo-modal">
+      <div class="demo-header">
+        <h3 id="demoTitle"></h3>
+        <button class="demo-close" id="demoClose" aria-label="关闭">✕</button>
+      </div>
+      <div class="demo-body" id="demoBody"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
